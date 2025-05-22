@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Form row layout for label/input alignment */
+form > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+form label {
+  min-width: 120px; /* Adjust as needed for your longest label */
+  text-align: right;
+  margin-right: 1em;
+  font-weight: 500;
+}
+
+form input {
+  flex: 1;
+  padding: 0.5em;
+}
+
